@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>Tic Tac Toe</title>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='../css/game.css'>
+    <script src="../js/tictactoe.js"></script>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="column">
+            <h2>Tic Tac Toe</h2>
+            <h4>Utilizing JS and Canvas</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <p>
+                This is a Tic Tac Toe game I wrote for the school as an Instructor. Students would study and modify this
+                to learn. It uses simple coding concepts students are familiar with up to this point in the course.
+            </p>
+            <p><a href="https://github.com/HoldenWiese/Tic-Tac-Toe-JS">https://github.com/HoldenWiese/Tic-Tac-Toe-JS</a></p>
+        </div>
+        <div class="col-5">
+            <div id="ajax-boot-camp">
+                <h3>Click a square to start playing</h3>
+                <div class='center-container'>
+                    <canvas id='win-lines' width='608' height='608'></canvas>
+                    <table id="table">
+                        <tr>
+                            <td class="td" id='0' onclick='placeXOrO("0")'></td>
+                            <td class="td" id='1' onclick='placeXOrO("1")'></td>
+                            <td class="td" id='2' onclick='placeXOrO("2")'></td>
+                        </tr>
+                        <tr>
+                            <td class="td" id='3' onclick='placeXOrO("3")'></td>
+                            <td class="td" id='4' onclick='placeXOrO("4")'></td>
+                            <td class="td" id='5' onclick='placeXOrO("5")'></td>
+                        </tr>
+                        <tr>
+                            <td class="td" id='6' onclick='placeXOrO("6")'></td>
+                            <td class="td" id='7' onclick='placeXOrO("7")'></td>
+                            <td class="td" id='8' onclick='placeXOrO("8")'></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

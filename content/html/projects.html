@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/bootCamp.css">
+    <link rel="stylesheet" href="../css/game.css">
+
+    <script src="../js/projects.js" defer></script>
+    <script src="../js/tictactoe.js" defer></script>
+</head>
+
+<body>
+    <div id="page-size">
+        <!-- Container for all content -->
+        <div class="row mx-0 py-4">
+            <!-- Vertical nav -->
+            <div class="nav-window col-2">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCamp.html', loadProject)">The Tech Academy</a></li>
+                    <li class="nav-item"><a class="nav-link" onclick="loadDoc('ajaxHTML/codeFirstForm/codeFirstForm.html', loadProject)">C# EF Code First Form</a></li>
+                    <li class="nav-item"><a class="nav-link" onclick="loadDoc('ajaxHTML/databaseFirst/databaseFirst.html', loadProject)">C# EF Database First MVC App</a></li>
+                    <li class="nav-item"><a class="nav-link" onclick="loadDoc('ajaxHTML/cSharp21/cSharp21.html', loadProject)">C# 21 Console App</a></li>
+                    <li class="nav-item"><a class="nav-link" onclick="loadDoc('ajaxHTML/tictactoe/tictactoe.html', loadProject)">JS Canvas Tic Tac Toe</a></li>
+                </ul>
+            </div>
+
+            <!-- Body content -->
+            <div class="col-10 px0">
+                <div id="ajax-content">
+                    <div class="row">
+                        <div class="column">
+                            <h2>The Tech Academy</h2>
+                            <h4>Full Stack Software Developer Boot Camp</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <ul>
+                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab1.html', ajaxProjectTab)">Overview</li>
+                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab2.html', ajaxProjectTab)">Tech. Basics</li>
+                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab3.html', ajaxProjectTab)">Software Development</li>
+                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab4.html', ajaxProjectTab)">Version Control</li>
+                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab5.html', ajaxProjectTab)">HTML and CSS</li>
+                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab6.html', ajaxProjectTab)">JavaScript Course</li>
+                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab7.html', ajaxProjectTab)">Python</li>
+                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab8.html', ajaxProjectTab)">Database and SQL</li>
+                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab9.html', ajaxProjectTab)">C# and .NET Framework</li>
+                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab10.html', ajaxProjectTab)">Project Management</li>
+                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab11.html', ajaxProjectTab)">Live Projects</li>
+                            </ul>
+                        </div>
+                        <div class="col-5">
+                            <div id="ajax-boot-camp">
+                                <h3>Coding Boot Camp</h3>
+                                <p>
+                                    I worked hard to try and teach myself how to become a programmer. I was learning a lot, but I wasn't sure I was on the
+                                    right path. I wanted more structure to build my education on so I decided to enroll in a boot camp.
+                                </p>
+                                <p>
+                                    After weeks of research, I enrolled at The Tech Academy. Their reviews were fantastic and they answered all my endless
+                                    questions. I made a big financial investment and eventually completed the "Software Developer Boot Camp".
+                                </p>
+                                <p>
+                                    At times it was very difficult, but today I'm so glad I did it. I feel confident in my ability to succeed as a developer.
+                                </p>
+                                
+                                <a href="https://www.learncodinganywhere.com/" target="_blank"><p>The Tech Academy's Website</p></a>
+                                <p>The Tech Academy Reviews</p>
+                                <a href="https://www.coursereport.com/schools/the-tech-academy" target="_blank"><p>Course Report</p></a>
+                                <a href="https://www.switchup.org/bootcamps/the-tech-academy" target="_blank"><p>SwitchUp</p></a>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

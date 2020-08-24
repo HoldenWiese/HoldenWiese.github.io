@@ -1,0 +1,30 @@
+/* Sizing the web page */
+#page-size {
+    width: 85vw;
+    height: 100vh;
+    margin: auto;
+}
+
+/* Sizing the left window. Vertical nav */
+
+/* Sizing the right window. Projects*/
+#project-title {
+    overflow: auto;
+}
+
+#project-info {
+    width: 20%;
+    float: left;
+}
+
+#project-main {
+    width: 80%;
+    float: left;
+    overflow: auto;
+}
+
+.courses {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+}

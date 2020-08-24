@@ -1,0 +1,32 @@
+body {
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.profilePic {
+    width: 50%;
+}
+
+.profilePic img {
+    width: 100%;
+}
+
+.paragraphText {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.paragraphText p {
+    font-size: 1.25rem;
+}
