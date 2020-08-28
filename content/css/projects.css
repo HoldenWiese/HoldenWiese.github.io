@@ -28,3 +28,11 @@
     margin: 10px 0;
     border: 1px solid black;
 }
+
+.active-tab {
+    background-color: yellow;
+}
+
+.inner-active-tab {
+    background-color: yellow;
+}

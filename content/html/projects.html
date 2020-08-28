@@ -25,11 +25,11 @@
             <!-- Vertical nav -->
             <div class="nav-window col-2">
                 <ul class="nav">
-                    <li class="nav-item"><a class="nav-link" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCamp.html', loadProject)">The Tech Academy</a></li>
-                    <li class="nav-item"><a class="nav-link" onclick="loadDoc('ajaxHTML/codeFirstForm/codeFirstForm.html', loadProject)">C# EF Code First Form</a></li>
-                    <li class="nav-item"><a class="nav-link" onclick="loadDoc('ajaxHTML/databaseFirst/databaseFirst.html', loadProject)">C# EF Database First MVC App</a></li>
-                    <li class="nav-item"><a class="nav-link" onclick="loadDoc('ajaxHTML/cSharp21/cSharp21.html', loadProject)">C# 21 Console App</a></li>
-                    <li class="nav-item"><a class="nav-link" onclick="loadDoc('ajaxHTML/tictactoe/tictactoe.html', loadProject)">JS Canvas Tic Tac Toe</a></li>
+                    <li id="o1"class="nav-item"><a class="nav-link active-tab" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCamp.html', loadProject); outerTabHighlight('o1')">The Tech Academy</a></li>
+                    <li id="o2"class="nav-item"><a class="nav-link" onclick="loadDoc('ajaxHTML/codeFirstForm/codeFirstForm.html', loadProject); outerTabHighlight('o2')">C# EF Code First Form</a></li>
+                    <li id="o3"class="nav-item"><a class="nav-link" onclick="loadDoc('ajaxHTML/databaseFirst/databaseFirst.html', loadProject); outerTabHighlight('o3')">C# EF Database First MVC App</a></li>
+                    <li id="o4"class="nav-item"><a class="nav-link" onclick="loadDoc('ajaxHTML/cSharp21/cSharp21.html', loadProject); outerTabHighlight('o4')">C# 21 Console App</a></li>
+                    <li id="o5"class="nav-item"><a class="nav-link" onclick="loadDoc('ajaxHTML/tictactoe/tictactoe.html', loadProject); outerTabHighlight('o5')">JS Canvas Tic Tac Toe</a></li>
                 </ul>
             </div>
 
@@ -45,17 +45,17 @@
                     <div class="row">
                         <div class="col-3">
                             <ul>
-                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab1.html', ajaxProjectTab)">Overview</li>
-                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab2.html', ajaxProjectTab)">Tech. Basics</li>
-                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab3.html', ajaxProjectTab)">Software Development</li>
-                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab4.html', ajaxProjectTab)">Version Control</li>
-                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab5.html', ajaxProjectTab)">HTML and CSS</li>
-                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab6.html', ajaxProjectTab)">JavaScript Course</li>
-                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab7.html', ajaxProjectTab)">Python</li>
-                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab8.html', ajaxProjectTab)">Database and SQL</li>
-                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab9.html', ajaxProjectTab)">C# and .NET Framework</li>
-                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab10.html', ajaxProjectTab)">Project Management</li>
-                                <li class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab11.html', ajaxProjectTab)">Live Projects</li>
+                                <li id="i1" class="courses inner-active-tab" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab1.html', ajaxProjectTab); innerTabHighlight('i1')">Overview</li>
+                                <li id="i2" class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab2.html', ajaxProjectTab); innerTabHighlight('i2')">Tech. Basics</li>
+                                <li id="i3" class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab3.html', ajaxProjectTab); innerTabHighlight('i3')">Software Development</li>
+                                <li id="i4" class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab4.html', ajaxProjectTab); innerTabHighlight('i4')">Version Control</li>
+                                <li id="i5" class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab5.html', ajaxProjectTab); innerTabHighlight('i5')">HTML and CSS</li>
+                                <li id="i6" class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab6.html', ajaxProjectTab); innerTabHighlight('i6')">JavaScript Course</li>
+                                <li id="i7" class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab7.html', ajaxProjectTab); innerTabHighlight('i7')">Python</li>
+                                <li id="i8" class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab8.html', ajaxProjectTab); innerTabHighlight('i8')">Database and SQL</li>
+                                <li id="i9" class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab9.html', ajaxProjectTab); innerTabHighlight('i9')">C# and .NET Framework</li>
+                                <li id="i10" class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab10.html', ajaxProjectTab); innerTabHighlight('i10')">Project Management</li>
+                                <li id="i11" class="courses" onclick="loadDoc('ajaxHTML/bootCampTabs/bootCampTab11.html', ajaxProjectTab); innerTabHighlight('i11')">Live Projects</li>
                             </ul>
                         </div>
                         <div class="col-5">
