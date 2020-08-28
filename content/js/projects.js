@@ -22,3 +22,21 @@ function ajaxProjectTab(xhttp) {
     document.getElementById("ajax-boot-camp").innerHTML =
         xhttp.responseText;
 }
+
+//Adding outer tab highlights.
+function outerTabHighlight(clickedTab){
+    let activeTab = document.getElementsByClassName("active-tab")
+    activeTab[0].classList.remove("active-tab")
+
+    let newActiveTab = document.getElementById(clickedTab)
+    newActiveTab.classList.add("active-tab")
+}
+
+//Adding inner tab highlights.
+function innerTabHighlight(clickedTab){
+    let activeTab = document.getElementsByClassName("inner-active-tab")
+    activeTab[0].classList.remove("inner-active-tab")
+
+    let newActiveTab = document.getElementById(clickedTab)
+    newActiveTab.classList.add("inner-active-tab")
+}
